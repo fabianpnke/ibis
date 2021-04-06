@@ -197,7 +197,7 @@ class BuildCommand extends Command
         $pdf->setAutoBottomMargin = 'pad';
 
         $tocLevels = [
-            'H1' => 0, 'H2' => 1
+            'H1' => 0, 'H2' => 0, 'H3' => 1
         ];
 
         $pdf->h2toc = $tocLevels;
